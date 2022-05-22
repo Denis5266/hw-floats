@@ -43,9 +43,9 @@
 }
 
 .green_boxes li {
-    display: inline-block;
     padding: 10px;
     float: left;
+    list-style: none;
 }
 
 .green_box {
