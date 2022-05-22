@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+.first_section, .second_section, .third_section, .forth_section, .fifth_section {
+    border: 5px solid black;
+    padding: 20px;
+    margin: 0 0 70px 0;
+}
+.container {
+    padding: 0 20px;
+}
+
+.container:after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.yellow_box {
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    float:left
+}
+
+.blue_box {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    float:right;
+}
+
+.red_box {
+    width: 200px;
+    height: 200px;
+    background: red;
+    float:left;
+}
+
+.green_boxes {
+    float: right;
+}
+
+.green_boxes li {
+    display: inline-block;
+    padding: 10px;
+    float: left;
+}
+
+.green_box {
+    width: 100px;
+    height: 100px;
+    background:green;
+}
+
+.first_box {
+    float: left;
+}
+
+.first_box li, .second_box li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+}
+
+.pink, .black {
+    width: 150px;
+    height: 150px;
+    background: pink;
+}
+
+.second_box {
+    float: right;
+}
+
+.second_box li {
+    float: left;
+}
+
+.black {
+    background: black;
+}
+
+.wrap1 {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.orange {
+    width: 400px;
+    height: 400px;
+    background: orange;
+    float: left;
+}
+
+.wrap1 li{
+    list-style: none;
+    float: right;
+    padding: 50px 0 50px;
+}
+
+.purple {
+    width: 200px;
+    height: 100px;
+    background: purple;
+}
+
+.wrap2 {
+    float: right;
+    margin: 0 auto;
+}
+
+.gold {
+    width: 400px;
+    height: 400px;
+    background: gold;
+    float: left;
+}
+
+.wrap2 ul {
+    float: right;
+    margin: 0;
+}
+
+.wrap2 li {
+    list-style: none;
+}
+
+.wrap2 li:first-child {
+    padding-bottom: 100%;
+}
+
+.grey {
+    width: 200px;
+    height: 100px;
+    background: grey;
+}
