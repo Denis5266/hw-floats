@@ -94,9 +94,12 @@
     float: left;
 }
 
+.wrap1 ul {
+    float: left;
+}
+
 .wrap1 li{
     list-style: none;
-    float: right;
     padding: 50px 0 50px;
 }
 
@@ -119,7 +122,7 @@
 }
 
 .wrap2 ul {
-    float: right;
+    float: left;
     margin: 0;
 }
 
